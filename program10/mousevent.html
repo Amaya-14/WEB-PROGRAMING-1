@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Mouse Event</title>
+</head>
+<body style="text-align: center">
+<h2>mouse handling</h2>
+<img id="img-tag" src="/home/student/amaya/prgrm9/images2.jpeg" onmouseover="changing()" onmouseout="setOld()" width="220px" height="230px" alt="image"/>
+<script>
+function changing() {
+document.getElementById("img-tag").src="/home/student/amaya/prgrm9/images1.jpeg" ;
+}
+function setOld()
+{
+document.getElementById("img-tag").src="/home/student/amaya/prgrm9/images2.jpeg";
+}
+</script>
+</body>
+</html>
